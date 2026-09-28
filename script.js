@@ -75,27 +75,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-// Reveal each price button once, two seconds after its card enters view.
-document.addEventListener('DOMContentLoaded', function () {
-  if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  const cards = document.querySelectorAll('.price-card');
-  const observer = new IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
-      if (!entry.isIntersecting) return;
-      observer.unobserve(entry.target);
-      const button = entry.target.querySelector('.price-order');
-      if (button) window.setTimeout(function () { button.classList.remove('price-order-pending'); }, 2000);
-    });
-  }, { threshold: 0.15 });
-  cards.forEach(function (card) {
-    const button = card.querySelector('.price-order');
-    if (!button) return;
-    button.classList.add('price-order-reveal', 'price-order-pending');
-    button.addEventListener('focus', function () { button.classList.remove('price-order-pending'); });
-    observer.observe(card);
-  });
-});
-
 // Animate FAQ height while keeping one selected answer open.
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.accordion').forEach(function (accordion) {
