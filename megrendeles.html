@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="hu"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Energetikai tanúsítvány megrendelése Dunakeszin, Fóton és Gödön. Töltse ki az űrlapot a helyszíni felmérés egyeztetéséhez."><meta name="robots" content="index,follow"><link rel="canonical" href="https://dunakeszi-tanusitvany.hu/megrendeles.html"><meta property="og:type" content="website"><meta property="og:locale" content="hu_HU"><meta property="og:title" content="Energetikai tanúsítvány megrendelése | Dunakeszi"><meta property="og:description" content="Rendeljen hivatalos energetikai tanúsítványt Dunakeszin és környékén."><meta property="og:url" content="https://dunakeszi-tanusitvany.hu/megrendeles.html"><title>Megrendelés | Dunakeszi tanúsítvány</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head>
+<body><header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Dunakeszi tanúsítvány ikon"><span class="brand-title"><h1>DUNAKESZI</h1><h3>TANÚSÍTVÁNY</h3></span></a><button class="menu-toggle" aria-label="Menü megnyitása" aria-expanded="false"><span></span><span></span><span></span></button><nav class="main-nav"><a href="index.html">Kezdőlap</a><a href="index.html#szolgaltatasok">Szolgáltatások</a><a href="index.html#arak">Árak</a><a href="index.html#tudnivalok">Tudnivalók</a><a href="index.html#kapcsolat">Kapcsolat</a><a class="nav-cta active" href="megrendeles.html">Megrendelem <span>↗</span></a></nav></div></header>
+<main><section class="page-hero page-hero-alt"><div class="container"><p class="eyebrow light">ENERGETIKAI TANÚSÍTVÁNY</p><h1>Megrendelés</h1><p>Adja meg adatait, és rövidesen felvesszük Önnel a kapcsolatot az időpont egyeztetéséhez.</p></div></section><section class="form-section section-pad"><div class="container form-layout"><form class="contact-form" action="send-message.php" method="post" data-form-type="Megrendelés"><input type="hidden" name="Űrlap típusa" value="Megrendelés"><h3>Megrendelés adatai</h3><p class="form-note">A *-gal jelölt mezők kitöltése kötelező.</p><div class="form-grid"><label>Teljes név *<input type="text" name="Név" autocomplete="name" required></label><label>Telefonszám *<input type="tel" name="Telefonszám" placeholder="06 70-527-0686" pattern="^(?:(?:\+36|06)[ -]?)?\d{2}[ /-]?\d{3}[ /-]?\d{4}$" title="Adja meg magyar telefonszámát, például: 06 70-527-0686" required></label><label class="full">E-mail cím *<input type="email" name="E-mail" autocomplete="email" required></label><label>Ingatlan címe *<input type="text" name="Ingatlan címe" required></label><label>Ingatlan típusa<select name="Ingatlan típusa"><option>Lakás</option><option>Családi ház</option><option>Iroda / üzlethelyiség</option><option>Egyéb</option></select></label><label>Megrendelés oka *<select name="Megrendelés oka" required><option value="" selected disabled>Válasszon okot</option><option>Adásvétel</option><option>Bérbeadás</option><option>Használatbavétel</option><option>Banki hitel</option><option>Pályázat</option></select></label><label class="full">Megjegyzés<textarea name="Megjegyzés" rows="4" placeholder="Van-e határidő vagy egyéb fontos információ?"></textarea></label></div><label class="check"><input type="checkbox" required> <span>Elfogadom az adatkezelési tájékoztatót, és hozzájárulok a megkeresésem kezeléséhez. *</span></label><button class="button button-primary" type="submit">Megrendelés elküldése <span>→</span></button><p class="form-disclaimer">Az elküldött adatokat kizárólag a megkeresés feldolgozásához használjuk.</p></form></div></section></main><footer class="site-footer"><div class="container footer-inner"><a class="brand brand-footer" href="index.html"><img class="brand-logo brand-logo-footer" src="assets/logo.png" alt="Dunakeszi tanúsítvány ikon"><span class="brand-title"><h1>DUNAKESZI</h1><h3>TANÚSÍTVÁNY</h3></span></a><p>Energetikai tanúsítvány készítés<br>Dunakeszi és környéke</p><div><span class="email-text">gali.andras@dunakeszi-tanusitvany.hu</span><br><a href="tel:+36705270686">06 70-527-0686</a></div></div><div class="container copyright"><span id="footer-year">© 2012-2026 dunakeszi-tanusitvany.hu - minden jog fenntartva</span><span>Megbízható szakértelem, érthetően.</span></div></footer><script>document.getElementById('footer-year').textContent='© '+(new Date().getFullYear()>=2012? '2012-'+new Date().getFullYear() : new Date().getFullYear())+' dunakeszi-tanusitvany.hu - minden jog fenntartva';</script><script src="script.js"></script><button class="back-to-top" type="button" aria-label="Vissza az oldal tetejére" title="Vissza a tetejére">↑</button><div id="success-overlay" class="success-overlay" hidden>
+<div class="success-popup" role="dialog" aria-modal="true" aria-labelledby="success-title">
+<h2 id="success-title">Köszönjük! Az üzenetet<br>sikeresen elküldtük.</h2>
+<p>Hamarosan felvesszük Önnel a kapcsolatot.</p>
+<button type="button" class="success-close" id="success-close"><span class="success-arrow">↵</span> Vissza</button>
+</div>
+</div>
+<style>
+.success-overlay{position:fixed;inset:0;background:rgba(255,255,255,.68);backdrop-filter:blur(1px);z-index:99999;display:flex;align-items:center;justify-content:center;padding:20px;box-sizing:border-box}
+.success-overlay[hidden]{display:none}
+.success-popup{width:420px;max-width:calc(100% - 40px);box-sizing:border-box;background:#fff;padding:32px;border-radius:14px;box-shadow:0 10px 35px rgba(0,0,0,.18);text-align:center;font-family:Arial,sans-serif}
+.success-popup h2{margin:0 0 14px;font-size:23px;line-height:1.2}
+.success-popup p{margin:0 0 22px;line-height:1.5}
+.success-close{border:0;background:transparent;color:#1677e8;font-weight:bold;font-size:16px;cursor:pointer;padding:6px}
+.success-close:hover{text-decoration:underline}
+.success-arrow{font-size:25px;vertical-align:-2px;margin-right:4px}
+</style>
+<script>
+(function(){
+  var form=document.querySelector('.contact-form');
+  var overlay=document.getElementById('success-overlay');
+  var closeBtn=document.getElementById('success-close');
+  if(!form||!overlay||!closeBtn)return;
+  form.addEventListener('submit',async function(e){
+    e.preventDefault();
+    if(!form.reportValidity()) return;
+    var button=form.querySelector('button[type="submit"]');
+    if(button) button.disabled=true;
+    try{
+      var response=await fetch(form.action,{method:'POST',body:new FormData(form),headers:{'X-Requested-With':'XMLHttpRequest'}});
+      var data=await response.json();
+      if(!response.ok||!data.success) throw new Error(data.message||'Küldési hiba');
+      overlay.hidden=false;
+      form.reset();
+    }catch(err){
+      alert('Az üzenet küldése nem sikerült. Kérjük, próbálja meg újra.');
+    }finally{
+      if(button) button.disabled=false;
+    }
+  });
+  closeBtn.addEventListener('click',function(){overlay.hidden=true;});
+  overlay.addEventListener('click',function(e){if(e.target===overlay) overlay.hidden=true;});
+})();
+</script></body></html>
