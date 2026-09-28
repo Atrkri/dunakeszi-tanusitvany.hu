@@ -1,0 +1,1 @@
+{"zip":2120,"updated_at":1790589882,"prices":{"th2":27000,"th3":32000,"th4":34000,"cs2":30000,"cs3":32000,"cs4":34000},"refreshed_keys":["th2","th3","th4","cs2","cs3","cs4"],"retained_keys":[]}
