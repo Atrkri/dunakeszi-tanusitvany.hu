@@ -296,3 +296,5 @@ html.card-touch-mode #arak .price-card.touch-selected .price-icon { color:var(--
 .energy-rating-copy h2 { margin:0 0 28px; color:var(--dark); font-size:clamp(30px,3.5vw,46px); line-height:1.15; } .energy-rating-copy h3 { margin:32px 0 14px; color:var(--dark); font-size:22px; } .energy-rating-copy p { margin:0 0 18px; color:var(--muted); font-size:16px; line-height:1.65; } .energy-rating-copy a { color:#2466c7; font-weight:700; text-decoration:underline; }
 @media(max-width:800px) { .energy-rating-layout { grid-template-columns:1fr; gap:35px; } .energy-rating-figure img { width:min(100%,440px); } .energy-rating-copy h2 { font-size:32px; } }
 .scale-item:first-child b { white-space: nowrap; }
+
+.rating-recommendation-image{margin-top:18px!important;max-width:472px}.rating-recommendation-image img{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
